@@ -1,0 +1,51 @@
+body{
+	font-family: "Albert Sans", serif !important;
+
+}
+.container, .container1 {
+    width: 100%; /* or a fixed width like 1200px if needed */
+    max-width: 1800px; /* Adjust to your desired maximum width */
+    margin: 0 auto;
+    height: 100vh;
+}
+a.navbar-brand{
+    color: #F9CC0B;
+}
+.row.border.bg-light.p-5{
+    height: 100%;
+}
+.navbar {
+    z-index: 1020;
+    position: sticky;
+    top: 0;
+}
+
+nav.navbar.navbar-expand-md.bg-theme-color {
+    background-color: #0C1D36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row.border.bg-light.p-5{
+    background-color: #F9CC0B !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button.btn.btn-success.w-100{
+    background-color: #0C1D36 !important;
+    color: #F9CC0B;
+    border-radius: 10px;
+    width: 200px !important;
+    
+}
+.form-group.mt-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

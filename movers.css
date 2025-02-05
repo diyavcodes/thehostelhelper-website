@@ -1,0 +1,134 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+
+nav.navbar.navbar-expand-md.bg-theme-color {
+    background-color: #0C1D36;
+    border: 0.75px solid white;
+    
+            
+            
+}
+
+.navbar {
+    z-index: 1020;
+    position: sticky;
+    top: 0;
+}
+
+ul.dropdown-menu.show{
+    background-color: #F9CC0B;
+}
+a.navbar-brand{
+    color: #F9CC0B;
+}
+body{
+	font-family: "Albert Sans", serif !important;
+
+}
+a.nav-link{
+    color: #F9CC0B !important;
+}
+.container{
+    justify-content: flex-end !important;
+}
+.full-screen-image {
+    display: block;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+}
+    /* width: 100vw; 
+    height: 100vh; 
+    object-fit: cover; 
+  } */
+  .navbar {
+    margin-bottom: 0;
+}
+.container-fluid {
+    padding: 0;
+    margin: 0;
+    height: 500px; 
+    overflow: hidden; 
+    position: relative; 
+}
+    
+button.btn.btn-primary.btn-sm{
+    background-color: #F9CC0B;
+    color: #0C1D36;
+    border-radius: 10px;
+    border-color: #F9CC0B;
+}
+button.btn.btn-primary.btn-sm:hover{
+    background-color: #F9F9F9;
+    color: #0C1D36;
+}
+a.nav-link:hover{
+    color: #F9F9F9 !important;
+}        
+.container-fluid{
+    background-color: #0C1D36;
+    height: 400px;
+    color: white;
+}
+.col-lg-7.col-md-6{
+    padding-left: 30px;
+}
+h1.headingtext{
+    font-weight: 800;
+}
+p{
+    font-size: 1.5rem;
+}
+.col-lg-5.col-md-6{
+    display: flex;
+    
+    align-items: center;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding-right: 25px;
+    
+}
+.row.align-items-center{
+    padding-top: 40px;
+}
+a.btn.btn-primary{
+    background-color: #F9CC0B;
+    color: #0C1D36;
+    border-radius: 10px;
+    border-color: #F9CC0B;
+    margin-top: 15px;
+}
+a.btn.btn-primary:hover{
+    background-color: white;
+}
+#container1{
+    background-color: #F9CC0B;
+    height: 450px;
+}
+.headingtext1{
+    color: #0C1D36;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+ol{
+    list-style-type: disc;
+    padding-left: 0px;
+    font-size: 1.25rem;
+}
+.listtext{
+    margin-bottom: 10px;
+    color: #0C1D36;
+}
+.listtext1{
+    color: #F9F9F9;
+    font-size: 1.25rem;
+
+}
+

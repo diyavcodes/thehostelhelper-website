@@ -1,0 +1,343 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+
+nav.navbar.navbar-expand-md.bg-theme-color {
+    background-color: #0C1D36;
+    
+            
+            
+}
+.container{
+    justify-content: flex-end !important;
+}
+
+.navbar {
+    z-index: 1020;
+    position: sticky;
+    top: 0;
+}
+
+ul.dropdown-menu.show{
+    background-color: #F9CC0B;
+}
+a.navbar-brand{
+    color: #F9CC0B;
+}
+body{
+	font-family: "Albert Sans", serif !important;
+
+}
+a.nav-link{
+    color: #F9CC0B !important;
+}
+
+
+.full-screen-image {
+    display: block;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+}
+    /* width: 100vw; 
+    height: 100vh; 
+    object-fit: cover; 
+  } */
+  .navbar {
+    margin-bottom: 0;
+}
+.container-fluid {
+    padding: 0;
+    margin: 0;
+    height: 500px; /* Fixed height */
+            overflow: hidden; /* Hide overflow */
+            position: relative; /* Position relative for image positioning */
+        }
+    
+
+.img-text1 {
+    position: absolute;
+    top: 30%;
+    left: 5%; /* Adjust as needed for spacing from the left edge */
+    transform: translateY(-50%); /* Center text vertically */
+    color: #0C1D36;
+    text-align: left; /* Align text to the left */
+    font-size: 5.0rem; /* Adjust size as needed */
+    padding: 10px; /* Optional: Add padding for readability */
+    font-family: "Albert Sans", serif !important;
+    font-weight: 900;
+    
+    width: 80%;
+}
+
+.search-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    left: 300px; 
+    top: 400px;
+}
+.search-overlay input[type="text"] {
+    margin-right: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 350px; /* Adjust width as needed */
+}
+
+.search-overlay button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F9CC0B; /* Bootstrap primary color */
+    color: #0C1D36;
+    cursor: pointer;
+}
+
+button.btn.btn-primary.btn-sm{
+    background-color: #F9CC0B;
+    color: #0C1D36;
+    border-radius: 10px;
+    
+}
+button.btn.btn-primary.btn-sm:hover{
+    background-color: #0C1D36;
+    color: #F9CC0B;
+}
+.card-body{
+    background-color: white;
+}
+.row{
+    background-color: #F9CC0B;
+    padding-left: 20px;
+}
+.scrollspy-example {
+            position: relative;
+            height: 100vh; /* Full viewport height */
+            overflow: auto; /* Scrollable content area */
+             /* Adjust based on the height of your navbar */
+            background-color: #0C1D36;
+            color: #F9CC0B;
+        }
+        .scrollspy-example::-webkit-scrollbar {
+            display: none;
+        }
+        .scrollspy-example h4 {
+            margin-top: 60px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+        }
+        .card{
+            background-color: #F9F9F9;
+        }
+        a.btn.btn-primary{
+           color: #F9CC0B;
+            background-color: #0C1D36;
+            border-radius: 10px;
+            
+        }
+        a.btn.btn-primary:hover{
+            background-color: #F9CC0B;
+            color: #0C1D36;
+
+        }
+        h4#scrollspyHeading2{
+            margin-top: 60px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            color: #0C1D36;
+        }
+        .img-card {
+            width: 200px; /* Adjust width as needed */
+            height: auto;
+        }
+        .card-body1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: #F9CC0B;
+            align-items: center;
+        }
+        .card1{
+            background-color: #0C1D36;
+            border-radius: 10px;
+        }
+        a.btn.btn-danger{
+            background-color: #F9CC0B;
+            color: #0C1D36;
+            border-radius: 10px;
+        }
+        .scrollspy-example1{
+            background-color: #F9CC0B;
+            position: relative;
+            height: 400px; /* Full viewport height */
+            overflow: auto;
+            padding-top: 50px;
+        }
+        .scrollspy-example1::-webkit-scrollbar {
+            display: none;
+        }
+        .image-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .image-text{
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            padding-left: 10px;
+        }
+        
+        .scrollspy-example2{
+            background-color: #0C1D36;
+            position: relative;
+            height: 600px; 
+            overflow: auto;
+        }
+        .scrollspy-example2::-webkit-scrollbar {
+            display: none;
+        }
+        h4#scrollspyHeading3{
+            margin-top: 60px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            color: #F9CC0B;
+        }
+        h4#scrollspyHeading1{
+            scroll-margin-top: 100px;
+        }
+        .section {
+            padding-top: 100px; /* Adjust this value based on your sticky navbar height */
+        }
+        .our-services{
+            min-height: 500px;
+            
+        }
+        .card.text-bg-primary{
+            background-color: #F9CC0B !important;
+            color: #0C1D36 !important;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .card.text-bg-primary:hover{
+            transform: scale(1.10); 
+            border-radius: 10px;
+            background-color: #0C1D36;
+            color: #F9CC0B;
+        }
+        
+        .card-header{
+            font-weight: 500;
+        }
+        .text{
+            color: #F9CC0B;
+        }
+
+        .col-sm-4.mb-3.mb-sm-0{
+            border-radius: 10px;
+            
+        }
+        .card-header{
+            background-color: #F9F9F9;
+        }
+        a.nav-link:hover{
+            color: #F9F9F9 !important;
+        }
+        img.img1{
+            transition: transform 0.3s ease;
+        }
+        img.img1:hover{
+            transform: scale(1.25); 
+        }
+        .dropdown-container{
+            font-size: 1.25rem;
+        }
+        .container1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #F9CC0B;
+        }
+        .container2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #F9CC0B;
+            
+            padding-top: 10px;
+            height: 70px;
+            border: 1px solid #0C1D36;
+            
+        }
+        h1{
+          font-weight: 800;
+        }
+        button.btn.btn-danger.btn-sm{
+            background-color: #0C1D36;
+            color: #F9CC0B;
+            border-radius: 10px;
+            font-size: 1.25rem;
+            margin-bottom: 5px;
+            
+        }
+        select{
+            border-radius: 10px;
+        }
+        .hostel-list { margin-top: 20px; 
+        }
+        .hostel-item { border: 1px solid #ddd; padding: 10px; margin-bottom: 10px; 
+        }
+        .hostel-item img { width: 100px; height: auto; 
+        }
+        img.card-img-top{
+            height: 100px;
+        }
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+        .card-img {
+            object-fit: cover;
+            height: 100%;
+        }
+        .hostel-list{
+            background-color: #F9CC0B;
+            margin-top: 0px;
+        }
+        img.img-fluid.full-screen-image{
+            opacity: 0.5;
+        }
+       .img-text1{
+        animation: 3s slide-up forwards;
+       }
+       @keyframes slide-up{
+        from{
+            margin-top: 100%;
+            width: 300%;
+
+
+        }
+        to{
+            margin-top: 0%;
+            width: 100%;
+        }
+
+    }
