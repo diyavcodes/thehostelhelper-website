@@ -1,5 +1,5 @@
 # thehostelhelper-website
-Website for simplifying hostel search and move in
+Website for simplifying hostel search and move in.
 This website aims to simplify the hostel search for college students.
 
 Technology used: HTML, CSS, Bootstrap, Javascript, JQuery, PHP, AJAX, MySQL database.
